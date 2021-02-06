@@ -1,0 +1,82 @@
+body {
+  font-family: 'Montserrat';
+}
+
+/* tile section */
+.container-fluid {
+  padding: 5% 15% 0;
+}
+
+/* navbar */
+.navbar {
+  font-family: 'Ubuntu';
+  font-size: 1.15rem;
+  font-weight: 300;
+  margin-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.nav-item {
+  margin-right: 1rem;
+}
+
+.last_nav_item {
+  margin-right: 0;
+}
+
+/* title Text */
+.h1_title {
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+
+/* title buttons */
+.btn {
+  font-weight: 500;
+}
+.btn i {
+  width: 20px;
+
+}
+/* img in title */
+.img_div_title {
+  overflow: hidden;
+  padding-top: 2rem;
+}
+
+.img-phone-title {
+  transform: rotate(25deg);
+  width: 60%;
+}
+
+/* featurs section */
+.container_features {
+  padding: 5% 5% 0;
+}
+
+.div_featurs {
+  margin-bottom: 5rem;
+  text-align: center;
+
+}
+.icons_featurs {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icons_featurs:hover {
+  color: #ff4668;
+}
+.h3_features{
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+ .div_featurs p {            /* select all p in the class of 'div_featurs' */
+  color: #8f8f8f;
+}
