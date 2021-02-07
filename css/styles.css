@@ -89,13 +89,15 @@ body {
 /* testimonials section */
 
 .container_testimonials {
-  padding: 5% 15% 0;
-  text-align: center;
   color: #fff;
+  text-align: center;
+}
+.carousel-item{
+  padding: 5% 15% 0;
 }
 .h2_testimonials{
-  font-weight: 700;
   font-size: 3rem;
+  font-weight: 700;
   margin-bottom: 1rem;
 }
 .img_testimonials {
@@ -112,8 +114,7 @@ body {
 }
 
 .img_press {
-  width: 50%; 
-
   margin: 2rem;
+  width: 50%;
   /* width: 16%; */
 }
