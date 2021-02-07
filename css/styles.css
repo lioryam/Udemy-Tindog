@@ -3,7 +3,7 @@ body {
 }
 
 /* tile section */
-.container-fluid {
+.title_container {
   padding: 5% 15% 0;
 }
 
@@ -41,10 +41,11 @@ body {
 .btn {
   font-weight: 500;
 }
+
 .btn i {
   width: 20px;
-
 }
+
 /* img in title */
 .img_div_title {
   overflow: hidden;
@@ -58,25 +59,61 @@ body {
 
 /* featurs section */
 .container_features {
-  padding: 5% 5% 0;
+  padding: 5% 10% 0;
 }
 
 .div_featurs {
   margin-bottom: 5rem;
+  padding: 6%;
   text-align: center;
-
 }
+
 .icons_featurs {
   color: #ef8172;
   margin-bottom: 1rem;
 }
+
 .icons_featurs:hover {
   color: #ff4668;
 }
-.h3_features{
+
+.h3_features {
   font-size: 1.5rem;
   font-weight: 800;
 }
- .div_featurs p {            /* select all p in the class of 'div_featurs' */
+
+.div_featurs p {              /* select all p in the class of 'div_featurs' */
   color: #8f8f8f;
+}
+
+/* testimonials section */
+
+.container_testimonials {
+  padding: 5% 15% 0;
+  text-align: center;
+  color: #fff;
+}
+.h2_testimonials{
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.img_testimonials {
+  border-radius: 100%;
+  margin: 2rem;
+  width: 13%;
+}
+
+/* Press section */
+
+.container_press {
+  padding: 5% 5% ;
+  text-align: center;
+}
+
+.img_press {
+  width: 50%; 
+
+  margin: 2rem;
+  /* width: 16%; */
 }
