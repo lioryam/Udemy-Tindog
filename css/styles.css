@@ -82,24 +82,56 @@ body {
   font-weight: 800;
 }
 
-.div_featurs p {              /* select all p in the class of 'div_featurs' */
+.div_featurs p {
+  /* select all p in the class of 'div_featurs' */
   color: #8f8f8f;
 }
 
 /* testimonials section */
+/* @media screen try . in order to fix "jump" on screen when h2 of one testimony is one line longer.*/
+@media screen and (min-width: 1068px) and (max-width: 1154px) {
+  div.carousel-inner {
+    height: 490px;
+  }
+}
+@media screen and (min-width: 830px) and (max-width: 867px) {
+  div.carousel-inner {
+    height: 504px;
+  }
+}
+@media screen and (min-width:657px) and (max-width: 830px ) {
+  div.carousel-inner {
+    height: 552px;
+  }
+}
+@media screen and (min-width:583px) and (max-width: 610px ) {
+  div.carousel-inner {
+    height: 575px;
+  }
+}
+@media screen and (max-width: 571px ) {
+  div.carousel-inner {
+    height: 650px;
+  }
+}
 
 .container_testimonials {
+  background-color: #ef8172;
   color: #fff;
   text-align: center;
 }
-.carousel-item{
-  padding: 5% 15% 0;
+
+
+.carousel-item {
+  padding: 8% 12% 0;
 }
-.h2_testimonials{
+
+.h2_testimonials {
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
+
 .img_testimonials {
   border-radius: 100%;
   margin: 2rem;
@@ -107,9 +139,9 @@ body {
 }
 
 /* Press section */
-
 .container_press {
-  padding: 5% 5% ;
+  background-color: #ef8172;
+  padding: 5% 5%;
   text-align: center;
 }
 
