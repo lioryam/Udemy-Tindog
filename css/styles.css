@@ -1,10 +1,11 @@
 body {
   font-family: 'Montserrat';
+  overflow-x: hidden;
 }
 
 /* tile section */
 .title_container {
-  padding: 5% 15% 0;
+  padding: 3% 15% 7%;
 }
 
 /* navbar */
@@ -12,12 +13,16 @@ body {
   font-family: 'Ubuntu';
   font-size: 1.15rem;
   font-weight: 300;
-  margin-bottom: 4.5rem;
+  margin-bottom: 5rem;
+  position: relative;
+  /* left: -16px; */
 }
+
 
 .navbar-brand {
   font-size: 2rem;
   font-weight: 700;
+  /* margin-left: -1rem; */
 }
 
 .nav-item {
@@ -48,23 +53,45 @@ body {
 
 /* img in title */
 .img_div_title {
-  overflow: hidden;
-  padding-top: 2rem;
+  /* text-align: center; */
 }
 
-.img-phone-title {
+.img_phone_title {
+  margin-top: 2rem;
+  position: absolute;
+  right: 20%;
   transform: rotate(25deg);
   width: 60%;
 }
 
+/* screen adjustments */
+@media (max-width: 992px) {
+  .title_container {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .navbar-nav {
+    position: relative;
+    text-align: left;
+  }
+
+  .img_phone_title {
+    left: 0.5rem;
+    position: relative;
+    transform: rotate(0);
+    width: 40%;
+  }
+}
+
 /* featurs section */
 .container_features {
-  padding: 5% 10% 0;
+  background-color: #fff;
+  padding: 5% 10%;
+  position: relative;
 }
 
 .div_featurs {
-  margin-bottom: 5rem;
-  padding: 6%;
   text-align: center;
 }
 
@@ -89,38 +116,42 @@ body {
 
 /* testimonials section */
 /* @media screen try . in order to fix "jump" on screen when h2 of one testimony is one line longer.*/
-@media screen and (min-width: 1068px) and (max-width: 1154px) {
+@media (min-width: 1068px) and (max-width: 1154px) {
   div.carousel-inner {
     height: 490px;
   }
 }
-@media screen and (min-width: 830px) and (max-width: 867px) {
+
+@media  (min-width: 830px) and (max-width: 867px) {
   div.carousel-inner {
     height: 504px;
   }
 }
-@media screen and (min-width:657px) and (max-width: 830px ) {
+
+@media  (min-width:657px) and (max-width: 830px) {
   div.carousel-inner {
     height: 552px;
   }
 }
-@media screen and (min-width:583px) and (max-width: 610px ) {
+
+@media  (min-width:583px) and (max-width: 610px) {
   div.carousel-inner {
     height: 575px;
   }
 }
-@media screen and (max-width: 571px ) {
+
+@media (max-width: 571px) {
   div.carousel-inner {
     height: 650px;
   }
 }
 
 .container_testimonials {
-  background-color: #ef8172;
+  background-color: #ff4668;
   color: #fff;
+  position: relative;
   text-align: center;
 }
-
 
 .carousel-item {
   padding: 8% 12% 0;
@@ -140,7 +171,7 @@ body {
 
 /* Press section */
 .container_press {
-  background-color: #ef8172;
+  background-color: #ff4668;
   padding: 5% 5%;
   text-align: center;
 }
@@ -149,3 +180,27 @@ body {
   margin: 1rem;
   width: 50%;
 }
+
+/* pricing */
+.row_pricing {
+  color: #fff;
+  font-weight: 600;
+  padding: 5% 10%;
+}
+
+.card-header {
+  background-color: #ff4668;
+}
+
+.card-body {
+  background-color: #ef8172;
+}
+.li_cards_pricing{
+  white-space: nowrap;
+}
+/* @media (max-width:) and (min-width) {
+
+}
+@media (max-width:) and (min-width) {
+
+} */
