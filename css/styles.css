@@ -1,6 +1,8 @@
 body {
   font-family: 'Montserrat';
+  max-width: 100%;
   overflow-x: hidden;
+  margin: 0;
 }
 
 /* tile section */
@@ -17,6 +19,7 @@ body {
   position: relative;
   /* left: -16px; */
 }
+
 
 .navbar-brand {
   font-size: 2rem;
@@ -121,19 +124,19 @@ body {
   }
 }
 
-@media (min-width: 830px) and (max-width: 867px) {
+@media  (min-width: 830px) and (max-width: 867px) {
   div.carousel-inner {
     height: 504px;
   }
 }
 
-@media (min-width:657px) and (max-width: 830px) {
+@media  (min-width:657px) and (max-width: 830px) {
   div.carousel-inner {
     height: 552px;
   }
 }
 
-@media (min-width:583px) and (max-width: 610px) {
+@media  (min-width:583px) and (max-width: 610px) {
   div.carousel-inner {
     height: 575px;
   }
@@ -142,6 +145,11 @@ body {
 @media (max-width: 571px) {
   div.carousel-inner {
     height: 650px;
+  }
+}
+@media (max-width: 438px) {
+  .carousel-inner h2 {
+    font-size: 2.3rem;
   }
 }
 
@@ -158,7 +166,7 @@ body {
 
 .h2_testimonials {
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 1rem;
 }
 
@@ -176,7 +184,7 @@ body {
 }
 
 .img_press {
-  margin: 1rem;
+  margin: 0.8rem;
   width: 50%;
 }
 
@@ -194,11 +202,9 @@ body {
 .card-body {
   background-color: #ef8172;
 }
-
-.li_cards_pricing {
+.li_cards_pricing{
   white-space: nowrap;
 }
-
 /* section cta */
 #cta {
   padding: 10% 16% 7%;
@@ -212,15 +218,16 @@ body {
   margin-bottom: 2rem;
 }
 
+
 /* footer */
 #footer {
   padding-top: 1rem;
   text-align: center;
 }
-
 a i {
-  margin: 1rem 1rem 0; 
+  margin: 1rem 1rem 0;
 }
+
 .p_footer{
   font-size: 0.8rem;
   position: relative;
