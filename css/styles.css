@@ -205,10 +205,29 @@ body {
 .li_cards_pricing{
   white-space: nowrap;
 }
+/* section cta */
+#cta {
+  padding: 10% 16% 7%;
+  text-align: center;
+}
 
+.h3_cta {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+
+/* footer */
+#footer {
+  padding-top: 1rem;
+  text-align: center;
+}
 a i {
   margin: 1rem 1rem 0;
 }
+
 .p_footer{
   font-size: 0.8rem;
   position: relative;
