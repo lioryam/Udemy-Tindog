@@ -190,6 +190,7 @@ body {
 
 /* pricing */
 .row_pricing {
+  text-align: center;
   color: #fff;
   font-weight: 600;
   padding: 5% 10%;
