@@ -187,9 +187,12 @@ body {
   margin: 0.8rem;
   width: 50%;
 }
-
 /* pricing */
+.container_pricing{
+  text-align: center;
+}
 .row_pricing {
+  text-align: center;
   color: #fff;
   font-weight: 600;
   padding: 5% 10%;
