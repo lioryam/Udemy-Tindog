@@ -1,6 +1,8 @@
 body {
   font-family: 'Montserrat';
+  max-width: 100%;
   overflow-x: hidden;
+  margin: 0;
 }
 
 /* tile section */
@@ -145,6 +147,11 @@ body {
     height: 650px;
   }
 }
+@media (max-width: 438px) {
+  .carousel-inner h2 {
+    font-size: 2.3rem;
+  }
+}
 
 .container_testimonials {
   background-color: #ff4668;
@@ -159,7 +166,7 @@ body {
 
 .h2_testimonials {
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 1rem;
 }
 
@@ -177,7 +184,7 @@ body {
 }
 
 .img_press {
-  margin: 1rem;
+  margin: 0.8rem;
   width: 50%;
 }
 
@@ -198,9 +205,31 @@ body {
 .li_cards_pricing{
   white-space: nowrap;
 }
-/* @media (max-width:) and (min-width) {
-
+/* section cta */
+#cta {
+  padding: 10% 16% 7%;
+  text-align: center;
 }
-@media (max-width:) and (min-width) {
 
-} */
+.h3_cta {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+
+/* footer */
+#footer {
+  padding-top: 1rem;
+  text-align: center;
+}
+a i {
+  margin: 1rem 1rem 0;
+}
+
+.p_footer{
+  font-size: 0.8rem;
+  position: relative;
+  bottom: -1rem;
+}
